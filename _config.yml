@@ -1,1 +1,35 @@
-baseurl: /artical
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+permalink: /:year/:month/:day/:title.html
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge #true
+markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: 指月
+
+description: 生活与梦想
+# gavatar头像及Favicon
+gavatar: /assets/ico/logo.png
+favicon: /assets/ico/logo.png
+
+author:
+  name:  能止
+  email: Zuofan@gmail.com
+  github: Zuofan
+  twitter: Zuofan
+  pinterest: Zuofan
+  linkedin: Zuofan
+  bio: 谁谓河广，一苇杭之
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
