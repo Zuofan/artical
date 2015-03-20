@@ -16,17 +16,17 @@ defaults:
 
 description: 生活与梦想
 # gavatar头像及Favicon
-gavatar: /assets/ico/logo.png
-favicon: /assets/ico/logo.png
+gavatar: https://github.com/Zuofan/artical/assets/ico/logo.png
+favicon: https://github.com/Zuofan/artical/assets/ico/logo.png
 
 author:
   name:  能止
   email: Zuofan@gmail.com
   github: Zuofan
-  twitter: Zuofan
-  pinterest: Zuofan
-  linkedin: Zuofan
-  bio: 谁谓河广，一苇杭之
+#  twitter: Zuofan
+#  pinterest: Zuofan
+#  linkedin: Zuofan
+  bio: ”天下之患，最不可为者，名为治平无事，而其实有不测之忧。坐观其变而不为之所，则恐至于不可救。――苏东坡《晁错论》“ 
 
 rss_path: feed.xml
 categories_path: categories.html
