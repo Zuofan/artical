@@ -16,8 +16,8 @@ defaults:
 
 description: 生活与梦想
 # gavatar头像及Favicon
-gavatar: https://github.com/Zuofan/artical/assets/ico/logo.png
-favicon: https://github.com/Zuofan/artical/assets/ico/logo.png
+gavatar: https://github.com/Zuofan/artical/blob/gh-pages/assets/ico/logo.png
+favicon: https://github.com/Zuofan/artical/blob/gh-pages/assets/ico/logo.png
 
 author:
   name:  能止
@@ -32,4 +32,4 @@ rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 
-BASE_PATH:
+BASE_PATH: https://github.com/Zuofan/artical/blob/gh-pages
