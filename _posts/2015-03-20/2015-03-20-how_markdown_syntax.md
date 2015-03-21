@@ -1,13 +1,13 @@
 ---
 
 layout: post
-title: Markdown Systax
+title: kramdown Systax
 category:  工具使用
 tags: [markdown]
 
 ---
 
-本文主要介绍了`Markdown`方面的一些语法。
+本文主要介绍了`kramdown`方面的一些语法。
 
 ### 修饰字词
 
