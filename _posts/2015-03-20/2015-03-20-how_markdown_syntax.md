@@ -64,8 +64,10 @@ tags: [Kramdown]
   在`kramdown`语法中的语法高亮不是很方便，需要安装`gem install coderay`才可以使用，而且，在github上没有coderay，所以最好使用自带的语法高亮进行显示。在这一点上，没有`vimwiki`方便。
 
   **采用外接的代码高亮方式：**
+ 
   1. 下载[jQuery Syntax Highlighter - Based on Google's Prettify](http://balupton.github.io/jquery-syntaxhighlighter/demo/)
   2. `jquery-syntaxhighlighter`设置
+
 	首先配置**jquery.min.js**，因为*jquery-syntaxhighlighter*需要**jquery**的支持
 		
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
