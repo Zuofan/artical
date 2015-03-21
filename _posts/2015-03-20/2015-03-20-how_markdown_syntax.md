@@ -66,12 +66,11 @@ tags: [Kramdown]
   **采用外接的代码高亮方式：**
  
   1. 下载[jQuery Syntax Highlighter - Based on Google's Prettify](http://balupton.github.io/jquery-syntaxhighlighter/demo/)
-  2. `jquery-syntaxhighlighter`设置
-
+  2. `jquery-syntaxhighlighter`设置 
 	首先配置**jquery.min.js**，因为*jquery-syntaxhighlighter*需要**jquery**的支持
 		
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	
+
 	其次，需要配置**jquery-syntaxhighlighter**
 
 		<!-- Include jQuery Syntax Highlighter -->
