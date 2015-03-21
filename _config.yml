@@ -26,8 +26,7 @@ author:
 #  twitter: Zuofan
 #  pinterest: Zuofan
 #  linkedin: Zuofan
-  bio: <pre>天下之患，最不可为者，名为治平无事，而其实有不测之忧。<br\>坐观其变而不为之所，则恐至于不可救。<br\> 
-                                                                                            ――苏东坡《晁错论》 </pre>
+  bio: 天下之患，最不可为者，<br>名为治平无事，而其实有不测之忧。<br>坐观其变而不为之所，则恐至于不可救。<br> <div align="right">――苏东坡《晁错论》</div>
 
 rss_path: feed.xml
 categories_path: categories.html
