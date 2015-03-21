@@ -1,6 +1,6 @@
 Zuofan
 =====
-Thanks to dbyll, you could find him at [dbyll](http://dbtek.github.io/dbyll/).I just get his theme.
+Thanks to dbyll's theme, you could find him at [dbyll](http://dbtek.github.io/dbyll/).
 
 Zuofan Blog: http://zuofan.github.io/artical/
 
