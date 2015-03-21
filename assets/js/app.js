@@ -13,4 +13,13 @@ $( document ).ready(function() {
 	
 	contact_list.mouseleave(function(){ scontacts.fadeOut(); });
 
+	//$("pre").addClass("prettyprint linenums");
+    //prettyPrint();
+	$("pre").addClass("highlight");
+	$.SyntaxHighlighter.init({
+		'prettifyBaseUrl': '/assets/resources/jquery-syntaxhighlighter/prettify',
+		'baseUrl': '/assets/resources/jquery-syntaxhighlighter',
+		'wrapLines': false,
+	});
+	
 });
