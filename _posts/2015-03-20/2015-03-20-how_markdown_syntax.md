@@ -67,16 +67,16 @@ tags: [Kramdown]
  
   1. 下载[jQuery Syntax Highlighter - Based on Google's Prettify](http://balupton.github.io/jquery-syntaxhighlighter/demo/)
   2. `jquery-syntaxhighlighter`设置 
-	首先配置**jquery.min.js**，因为*jquery-syntaxhighlighter*需要**jquery**的支持
+      首先配置**jquery.min.js**，因为*jquery-syntaxhighlighter*需要**jquery**的支持
 		
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 
-	其次，需要配置**jquery-syntaxhighlighter**
+     其次，需要配置**jquery-syntaxhighlighter**
 
 		<!-- Include jQuery Syntax Highlighter -->
 		<script type="text/javascript" src="http://balupton.github.com/jquery-syntaxhighlighter/scripts/jquery.syntaxhighlighter.min.js"></script>
-
-	最后，设置**jquery-syntaxhighlighter**的启动参数
+		
+    最后，设置**jquery-syntaxhighlighter**的启动参数
 
 		$("pre").addClass("highlight");
 		$.SyntaxHighlighter.init({
