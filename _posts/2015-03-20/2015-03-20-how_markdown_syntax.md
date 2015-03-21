@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Kramdown Systax
+title: Kramdown 使用
 category:  工具使用
 tags: [Kramdown]
 
@@ -20,6 +20,7 @@ tags: [Kramdown]
 	{:/comment}
 5. `[link_name](link_address)`:
 	[能止]({{ site.BASE_PATH }})
+
     `![Images](/assets/ico/logo.png)`，如：
 	![Images]({{ site.BASE_PATH }}/assets/ico/logo.png)
 4. `Blockquotes` :
