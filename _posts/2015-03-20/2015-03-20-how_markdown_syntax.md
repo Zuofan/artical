@@ -21,7 +21,7 @@ tags: [Kramdown]
 5. `[link_name](link_address)`:
 	[能止]({{ site.BASE_PATH }})
     `![Images](/assets/ico/logo.png)`，如：
-	![Images](/assets/ico/logo.png)
+	![Images]({{ site.BASE_PATH }}/assets/ico/logo.png)
 4. `Blockquotes` :
 
 - `>`	表示单层的blockquote
