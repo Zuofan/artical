@@ -2,6 +2,7 @@
 
 body{
 	color: #2c3e50;
+	font-family: "宋体", "Courier New", Courier, monospace;
 }
 
 code {
@@ -47,7 +48,7 @@ a.nav-link i{
 a.nav-link:hover { color: #777 }
 
 #bio {
-	font-family: "华文行楷", "微软雅黑", "Courier New", Courier, monospace;
+	font-family: "宋体", "华文行楷", "微软雅黑", "Courier New", Courier, monospace;
 	font-size: 12px;
 	margin: 0 auto;
 	margin-bottom: 10px;

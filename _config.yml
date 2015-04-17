@@ -3,7 +3,7 @@ permalink: /:year/:month/:day/:title.html
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
-highlighter: rouge #true
+highlighter: pygments #rouge #true
 markdown: kramdown
 
 
@@ -12,7 +12,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: 指月
+      title: 凡人
 
 description: 生活与梦想
 # gavatar头像及Favicon
@@ -32,4 +32,5 @@ rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 
+#BASE_PATH: 
 BASE_PATH: http://zuofan.github.io/artical/
