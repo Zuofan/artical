@@ -14,15 +14,19 @@ tags: [markdown, kramdown]
 2. `*斜体*`		： 	*斜体*
 3. 水平线 `- - - -` ： 
 4. `{::comment} content ignored {:/comment}`
-	下面的文字不会出现在HTML文档中：
-	{::comment}
-	This is a comment!
-	{:/comment}
-5. `[link_name](link_address)`:
-	[能止]({{ site.BASE_PATH }})
-    `![Images](/assets/ico/logo.png)`，如：
-	![Images](/assets/ico/logo.png)
-4. `Blockquotes` :
+     试试下面的内容是否显示：
+
+        	{::comment}
+        	This is a comment!
+        	{:/comment}
+
+
+5. `[文字链接](link_address)`: [能止]({{ site.BASE_PATH }})
+6. 
+    `![图片链接](图片的位置)`，如：
+	![Images](www.baidu.com/img/bdlogo.png)
+
+7. `Blockquotes` :
 
 - `>`	表示单层的blockquote
 - `>>`	表示嵌套的blockquote
@@ -32,10 +36,8 @@ tags: [markdown, kramdown]
 >>Nested blockquotes are also possible.
 >>上面的空行是必要的，否则，嵌套的`blockquotes`是没有作用的。
 
-> ## Headers work too
-> This is the outer quote again.
-
 ### 列表
+
 * 列表方式(`*`)
 - 列表方式(`-`)
 + 列表方式(`+`)
@@ -44,20 +46,12 @@ tags: [markdown, kramdown]
 2. Sequence(`2. `)
 
 ### 代码
+
 - 代码块
 
 		def what?
 			42
 		end	
-
-   下面这种方式使用新的`kramdown`语法来书写，但高亮所需的条件在**github**中没有，而且缩进的方式也比较麻烦，故而需要采用其他的方式才可以。
-
-
-		~~~ javascript
-		function add(a, b) {
-			return a+b;
-		}
-		~~~
 
 - 代码高亮
   在`kramdown`语法中的语法高亮不是很方便，需要安装`gem install coderay`才可以使用，而且，在github上没有coderay，所以最好使用自带的语法高亮进行显示。在这一点上，没有`vimwiki`方便。
@@ -93,4 +87,5 @@ tags: [markdown, kramdown]
 		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 - 实例：`$$a^2 + b^2 = c^2$$` 
+
   $$a^2 + b^2 = c^2$$
