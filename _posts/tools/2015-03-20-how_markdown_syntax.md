@@ -7,7 +7,7 @@ tags: [markdown, kramdown]
 
 ---
 
-本文主要介绍了`kramdown`方面的一些语法。
+本文主要介绍了`kramdown`方面的一些语法。具体的可以参看[kramdown语法](http://kramdown.gettalong.org/syntax.html)
 
 ### 修饰字词
 1. `**强调**`	：	**强调**
