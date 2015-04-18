@@ -32,5 +32,5 @@ rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 
-#BASE_PATH: 
-BASE_PATH: http://zuofan.github.io/artical/
+#BASE_PATH:
+BASE_PATH: http://zuofan.github.io/artical

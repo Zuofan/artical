@@ -24,7 +24,7 @@ tags: [markdown, kramdown]
 5. `[文字链接](link_address)`: [能止]({{ site.BASE_PATH }})
 6. 
     `![图片链接](图片的位置)`，如：
-	![Images](www.baidu.com/img/bdlogo.png)
+	![Images]({{ site.BASE_PATH }}/assets/ico/logo.png){:height="36px" width="56px"}
 
 7. `Blockquotes` :
 
@@ -57,25 +57,27 @@ tags: [markdown, kramdown]
   在`kramdown`语法中的语法高亮不是很方便，需要安装`gem install coderay`才可以使用，而且，在github上没有coderay，所以最好使用自带的语法高亮进行显示。在这一点上，没有`vimwiki`方便。
 
   **采用外接的代码高亮方式：**
+
   1. 下载[jQuery Syntax Highlighter - Based on Google's Prettify](http://balupton.github.io/jquery-syntaxhighlighter/demo/)
+  
   2. `jquery-syntaxhighlighter`设置
-	首先配置**jquery.min.js**，因为*jquery-syntaxhighlighter*需要**jquery**的支持
-		
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	
-	其次，需要配置**jquery-syntaxhighlighter**
+ 
+	   首先配置**jquery.min.js**，因为*jquery-syntaxhighlighter*需要**jquery**的支持
 
-		<!-- Include jQuery Syntax Highlighter -->
-		<script type="text/javascript" src="http://balupton.github.com/jquery-syntaxhighlighter/scripts/jquery.syntaxhighlighter.min.js"></script>
+             <script type="text/javascript" src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+	      
+	   其次，需要配置**jquery-syntaxhighlighter**，可以下载到本地，然后指向本地。这个网址有时可以访问，有时不可以访问。
+            
+            <script type="text/javascript" src="http://balupton.github.com/jquery-syntaxhighlighter/scripts/jquery.syntaxhighlighter.min.js"></script>
 
-	最后，设置**jquery-syntaxhighlighter**的启动参数
+	   最后，设置**jquery-syntaxhighlighter**的启动参数
 
-		$("pre").addClass("highlight");
-		$.SyntaxHighlighter.init({
-			//如果要引用本地的资源，需要打开下面的注释。默认使用在线的资源，具体可参jquery.syntaxhighlighter.js
-			//'prettifyBaseUrl': '/assets/resources/jquery-syntaxhighlighter/prettify',
-			//'baseUrl': '/assets/resources/jquery-syntaxhighlighter'
-		});
+            $("pre").addClass("highlight");
+            $.SyntaxHighlighter.init({
+                    //如果要引用本地的资源，需要打开下面的注释。默认使用在线的资源，具体可参jquery.syntaxhighlighter.js
+                    //'prettifyBaseUrl': '/assets/resources/jquery-syntaxhighlighter/prettify',
+                    //'baseUrl': '/assets/resources/jquery-syntaxhighlighter'
+            });
 
 
 ### Math block

@@ -17,8 +17,10 @@ $( document ).ready(function() {
     //prettyPrint();
 	$("pre").addClass("highlight");
 	$.SyntaxHighlighter.init({
-	//	'prettifyBaseUrl': '{{ site.BASE_PATH }}/assets/resources/jquery-syntaxhighlighter/prettify',
-	//	'baseUrl': '{{ site.BASE_PATH }}/assets/resources/jquery-syntaxhighlighter',
+		'prettifyBaseUrl': '{{ site.BASE_PATH }}/assets/resources/jquery-syntaxhighlighter/prettify',
+		'baseUrl': '{{ site.BASE_PATH }}/assets/resources/jquery-syntaxhighlighter',
+//		'prettifyBaseUrl': '/assets/resources/jquery-syntaxhighlighter/prettify',
+//		'baseUrl': '/assets/resources/jquery-syntaxhighlighter',
 		'wrapLines': false,
 	});
 	
